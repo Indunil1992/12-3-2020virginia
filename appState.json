@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d76e54a6-0057-47df-bf05-3666ae017bea": {
+        "id": "d76e54a6-0057-47df-bf05-3666ae017bea",
+        "parent": null,
+        "name": "12-3-2020virginia.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "12-3-2020virginia.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPIname1111get",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "d76e54a6-0057-47df-bf05-3666ae017bea"
+    ],
+    "currentFileId": "d76e54a6-0057-47df-bf05-3666ae017bea",
+    "resources": {
+      "apigusEast1sachithraAPIname1111get": {
+        "name": "apigusEast1sachithraAPIname1111get",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/1111",
+          "resourceName": "1111",
+          "resourceId": "0rjsnt",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test1",
+          "stageDeploymentId": "t24ozd",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "12-3-2020virginia",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1584081314092
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "12-3-2020virginia",
+      "url": "https://github.com/Indunil1992/12-3-2020virginia"
+    }
+  }
+}
